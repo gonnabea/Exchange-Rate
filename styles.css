@@ -12,3 +12,58 @@ body{
     width:100vw;
     height:100vh;
 }
+
+.logo{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.title{
+    color: black;
+    font-weight: 700;
+    font-size:50px;
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.input-area{
+    margin-bottom: 30px;
+    display: flex;
+
+}
+.swap_btn{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5FBAA7;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
+
+.select-ctr{
+    border:none;
+    background-color: darkcyan;
+    color: white;
+    font-weight: 700;
+    width: 130px;
+    height:50px;
+    text-align: center;
+}
+
+.amount{
+    border:none;
+    text-align: center;
+    background-color: #5FBAA7;
+    color:white;
+    border-radius: 0 10px 10px 0;
+    width: 300px;
+    height:48px;
+    outline: none;
+    margin-left:-5px;
+    font-size:25px;
+}
