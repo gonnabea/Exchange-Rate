@@ -19,7 +19,7 @@ function getData(){
         
     })
 }
-
+ 
 function handleConvert(){
     baseCountry = countrySelect2.value;
     objectCountry = countrySelect.value;
@@ -52,5 +52,6 @@ function init(){
     getData();
     
 }
+
 
 init();
